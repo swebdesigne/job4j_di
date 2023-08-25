@@ -8,9 +8,7 @@ public class Main {
         context.reg(StartUI.class);
         StartUI ui = context.get(StartUI.class);
 
-
         ui.add(ui.askStr("Petr Arsentev"));
-        ui.add(ui.askStr("Ivan ivanov"));
         ui.print();
     }
 }
